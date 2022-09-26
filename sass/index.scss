@@ -1,2 +1,9 @@
 // Base
-@import url("base/_reset.scss");
+@import "base/reset";
+
+// components
+@import "components/buttons";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
