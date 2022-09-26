@@ -110,4 +110,11 @@ header {
 .simplify__btn {
   background-color: #fff;
   color: hsl(12deg, 88%, 59%);
+}
+
+.about__list-number {
+  background-color: hsl(12deg, 88%, 59%);
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
 }/*# sourceMappingURL=index.css.map */

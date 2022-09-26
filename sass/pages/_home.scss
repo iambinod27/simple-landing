@@ -43,3 +43,12 @@ header {
     color: c.$primary-bright-red;
   }
 }
+
+.about {
+  &__list-number {
+    background-color: c.$primary-bright-red;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 15px;
+  }
+}
