@@ -18,7 +18,7 @@ li {
   border: none;
   background: hsl(12deg, 88%, 59%);
   color: #fff;
-  padding: 5px 12px;
+  padding: 8px 20px;
 }
 
 .home__logo-container {
@@ -41,4 +41,19 @@ li {
 .home__nav-items {
   color: hsl(228deg, 39%, 23%);
   font-size: 0.925rem;
+}
+
+header {
+  background-image: url("/assets/icons/bg-simplify-section-desktop.svg");
+}
+
+.home__main-content h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: hsl(228deg, 39%, 23%);
+}
+.home__main-content p {
+  color: #7a7a7a;
+  width: 400px;
+  margin: 1rem 0;
 }/*# sourceMappingURL=index.css.map */
