@@ -1,0 +1,11 @@
+@use "../sass-utils/variables" as color;
+
+.global {
+  &__btn {
+    border-radius: 20px;
+    border: none;
+    background: color.$primary-bright-red;
+    color: color.$white;
+    padding: 8px 20px;
+  }
+}

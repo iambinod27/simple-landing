@@ -1,1 +1,120 @@
-@import url("base/_reset.scss");/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.global__btn {
+  border-radius: 20px;
+  border: none;
+  background: hsl(12deg, 88%, 59%);
+  color: #fff;
+  padding: 8px 20px;
+}
+
+.home__logo-container {
+  width: 150px;
+  height: 80px;
+}
+.home__logo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home__nav-links {
+  display: flex;
+  gap: 2rem;
+  height: 80px;
+  align-items: center;
+  cursor: pointer;
+}
+.home__nav-items {
+  color: hsl(228deg, 39%, 23%);
+  font-size: 0.925rem;
+}
+
+footer {
+  background-color: hsl(233deg, 12%, 13%);
+}
+
+.footer__copyright {
+  font-size: 0.925rem;
+  color: #d6d6d6 !important;
+  width: 104%;
+  text-align: right;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer__list li {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.925rem;
+}
+.footer__list li:hover {
+  color: hsl(12deg, 88%, 59%);
+  cursor: pointer;
+}
+.footer__input {
+  border-radius: 17px;
+  border: none;
+  padding: 5px 10px;
+}
+.footer__input:focus {
+  border-color: #fff;
+}
+
+header {
+  background-image: url("/assets/icons/bg-simplify-section-desktop.svg");
+}
+
+.home__main-content h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: hsl(228deg, 39%, 23%);
+}
+.home__main-content p {
+  color: #7a7a7a;
+  width: 400px;
+  margin: 1rem 0;
+}
+
+.simplify {
+  background-color: hsl(12deg, 88%, 59%);
+  background-image: url("/assets/icons/bg-simplify-section-desktop.svg");
+}
+.simplify__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+}
+.simplify__container h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 2.5rem;
+  width: 500px;
+}
+.simplify__btn {
+  background-color: #fff;
+  color: hsl(12deg, 88%, 59%);
+}
+
+.about__list-number {
+  background-color: hsl(12deg, 88%, 59%);
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+}/*# sourceMappingURL=index.css.map */
