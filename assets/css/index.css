@@ -43,6 +43,39 @@ li {
   font-size: 0.925rem;
 }
 
+footer {
+  background-color: hsl(233deg, 12%, 13%);
+}
+
+.footer__copyright {
+  font-size: 0.925rem;
+  color: #d6d6d6 !important;
+  width: 104%;
+  text-align: right;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer__list li {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.925rem;
+}
+.footer__list li:hover {
+  color: hsl(12deg, 88%, 59%);
+  cursor: pointer;
+}
+.footer__input {
+  border-radius: 17px;
+  border: none;
+  padding: 5px 10px;
+}
+.footer__input:focus {
+  border-color: #fff;
+}
+
 header {
   background-image: url("/assets/icons/bg-simplify-section-desktop.svg");
 }
