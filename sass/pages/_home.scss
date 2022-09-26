@@ -45,6 +45,26 @@ header {
 }
 
 .about {
+  &__section_head {
+    font-size: 2.25rem;
+  }
+  &__section {
+    padding: 2rem 0;
+    p {
+      color: #7a7a7a;
+    }
+
+    h2,
+    h6 {
+      color: c.$primary-dark-blue;
+    }
+  }
+  &__list {
+    p {
+      margin-top: 1rem;
+    }
+  }
+
   &__list-number {
     background-color: c.$primary-bright-red;
     color: #fff;

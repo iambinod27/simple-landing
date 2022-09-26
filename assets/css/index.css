@@ -112,6 +112,22 @@ header {
   color: hsl(12deg, 88%, 59%);
 }
 
+.about__section_head {
+  font-size: 2.25rem;
+}
+.about__section {
+  padding: 2rem 0;
+}
+.about__section p {
+  color: #7a7a7a;
+}
+.about__section h2,
+.about__section h6 {
+  color: hsl(228deg, 39%, 23%);
+}
+.about__list p {
+  margin-top: 1rem;
+}
 .about__list-number {
   background-color: hsl(12deg, 88%, 59%);
   color: #fff;
